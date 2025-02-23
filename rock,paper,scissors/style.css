@@ -1,0 +1,44 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+#choices{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#displays{
+  width: 500px;
+  border: 1px solid black;
+  margin: 20px auto;
+  font-weight: 800;
+  font-size: 20px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.20);
+}
+
+.rps{
+  font-size: 18px;
+  padding: 15px 36px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+#scores{
+  width: 500px;
+  border: 1px solid black;
+  margin: 20px auto;
+  font-weight: 800;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#displayResult{
+ font-size: 45px;
+}
